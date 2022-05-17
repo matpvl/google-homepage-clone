@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #bar {
+            height: 40px;
+            width: 560px;
+            background-color: #fff;
+            border-radius: 24px;
+            border: 0.5px solid lightgray;
+            display: inline-flex;
+        }
+
+        #bar:hover {
+            transform: scale(1.0005);
+            box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+        }
+
+        #lupa {
+            height: 20px;
+            width: 20px;
+            display: inline-flex;
+        }
+
+        #slika {
+            padding: 10px;
+        }
+
+        #searchbar {
+            display: inline-flex;
+            height: 13px;
+            padding: 5px;
+            width: 450px;
+            border: 0px;
+            outline: none;
+            font-size: 100%;
+        }
+
+        #searchdiv {
+            padding: 7px;
+            padding-top: 8px;
+            padding-left: 20px;
+        }
+
+        #logo {
+            height: 92px;
+            width: 272px;
+            align-self: center;
+            padding: 44px;
+        }
+
+        #slikalogo {
+            height: 92px;
+            width: 272px;
+            display: inline-flex;
+        }
+
+        #sve {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100vw;
+            height: 70vh;
+        }
+        
+        .dugmad {
+            display: inline-flex;
+            flex-direction: row;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 15px;
+            padding-top: 50px;
+        }
+
+        #button1 {
+            margin-right: 20px;
+        }
+
+        #button2 {
+            margin-left: 20px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="sve">
+        <div id="logo">
+            <img src="logo.png" alt="" id="slikalogo">
+        </div>
+        <div id="bar">
+            <div id="lupa">
+                <img id="slika" src="lupa.png" alt="" height="25px" width="25px" background-color: #fff>
+            </div>
+            <div id="searchdiv">
+                    <input type="text" id="searchbar">
+            </div>
+        </div>
+        <div class="dugmad">
+            <button type="button" id="button1">google images search</button>
+            <button type="button" id="button2">advanced search</button>
+        </div>
+    </div>
+</body>
+</html>
